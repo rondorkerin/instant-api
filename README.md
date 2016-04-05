@@ -1,10 +1,15 @@
-# Native API
+# Instant API
+
 
 Native API is a JSON-configured REST API written in Santra. It's extremely lightweight. The target market is people who want to generate a SIMPLE REST API straight from their database with no code required. Just supply a connection configuration file and you're off.
 
+The creators of native API believe that all database objects should be queryable on `create timestamp` and `update timestamp` fields, which allows for an internet-wide object sync process.
+
+## WIP
+
 Native API is a work in progress - star the repo and check back soon.
 
-The creators of native API believe that all database objects should be queryable on `create timestamp` and `update timestamp` fields, which allows for an internet-wide object sync process.
+Next steps are to switch from a proprietary data format to a swagger extension format. 
 
 ###Key features:
 * Supports DB-instance-per-user, DB-server-per-user, and client ID data partitioning strategies
